@@ -22,7 +22,7 @@ function Home2() {
               <i><b className="purple"> I wrote my first code in 2015. </b></i> Between 2017
               and 2019, I worked on frontend and backend development in the Mobile App and Web fields. 
               Towards the end of 2019, I was introduced to Game Development and have been actively developing games since then. 
-              I started my first professional job in the game industry in 2020. I have been a <i><b className="purple"> Professional Game Developer </b></i> for about <i><b className="purple"> 4 years </b></i> now.
+              I started my first professional job in the game industry in 2020. I have been a <i><b className="purple"> Professional Game Developer </b></i> for about <i><b className="purple"> 5 years </b></i> now.
               <br/>
               <br/>I am fluent in
               <i><b className="purple"> C#, Unity </b></i>
@@ -38,36 +38,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/oguzhandelibas"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/oguzhan-delibas/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+    
       </Container>
     </Container>
   );

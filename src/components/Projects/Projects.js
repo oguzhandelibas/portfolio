@@ -11,6 +11,12 @@ import tetris from "../../Assets/Projects/tetris.png";
 import jamSimulator from "../../Assets/Projects/jamSimulator.png";
 import whoThief from "../../Assets/Projects/whoThief.png";
 import siemensKiosk from "../../Assets/Projects/siemensKiosk.png";
+
+import slidingHero from "../../Assets/Projects/slidingHero.png";
+import diceHero from "../../Assets/Projects/diceHero.png";
+import weaponCrates from "../../Assets/Projects/weaponCrates.png";
+import megaDigger from "../../Assets/Projects/megaDigger.png";
+
 import funlary from "../../Assets/Projects/funlary.png";
 import tapTap from "../../Assets/Projects/tapTap.png";
 import sweetSwap from "../../Assets/Projects/sweetSwap.png";
@@ -160,6 +166,50 @@ function Projects() {
           Here are a few Mobile game projects I've worked.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={slidingHero}
+                    isBlog={false}
+                    title="Sliding Hero!"
+                    //   description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    //ghLink="https://github.com/soumyajit4419/Chatify"
+                    demoLink="https://apps.apple.com/eg/app/sliding-hero/id6747081358"
+                />
+            </Col>
+
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={diceHero}
+                    isBlog={false}
+                    title="Dice Hero!"
+                    //   description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    //ghLink="https://github.com/soumyajit4419/Chatify"
+                    demoLink="https://apps.apple.com/eg/app/dice-hero/id6743487480"
+                />
+            </Col>
+
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={weaponCrates}
+                    isBlog={false}
+                    title="Weapon Crates"
+                    //   description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    //ghLink="https://github.com/soumyajit4419/Chatify"
+                    demoLink="https://apps.apple.com/eg/app/weapon-crates/id6741487523"
+                />
+            </Col>
+            
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={megaDigger}
+                    isBlog={false}
+                    title="Mega Digger"
+                    //   description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+                    //ghLink="https://github.com/soumyajit4419/Chatify"
+                    demoLink="https://apps.apple.com/eg/app/mega-digger/id6739450961"
+                />
+            </Col>  
+            
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={funlary}
@@ -170,7 +220,6 @@ function Projects() {
                 demoLink="https://play.google.com/store/apps/details?id=com.ODProjects.Funlary"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={tapTap}
@@ -181,7 +230,6 @@ function Projects() {
                 demoLink="https://play.google.com/store/apps/details?id=com.ODProjects.TapTap"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={sweetSwap}
@@ -192,7 +240,6 @@ function Projects() {
                 demoLink="https://play.google.com/store/apps/details?id=com.odprojects.SweetSwap"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={flyingBasketball}
@@ -203,7 +250,6 @@ function Projects() {
                 demoLink="https://play.google.com/store/apps/details?id=com.surajit.flyingbasketball"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={prepareSurgery}
@@ -214,7 +260,6 @@ function Projects() {
                 demoLink="https://apps.apple.com/us/app/prepare-for-surgery/id1623560652"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={ballMaster}
